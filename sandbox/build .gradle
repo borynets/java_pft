@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'application'
+mainClassName = "MyFirstProgram"
+
+repositoies {
+    maven.Central ()
+}
+
+dependincies {
+    "compile.slickqa:testng:7.0.0-7"
+}
